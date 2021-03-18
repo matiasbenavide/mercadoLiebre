@@ -1,0 +1,62 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+.padre{
+    background-color: white;
+}
+    .header{
+        background-color: black;
+    }
+        .menu{
+            background-color: aquamarine;
+        }
+        .texto-principal{
+            background-color: aquamarine;
+        }
+    .section01{
+        background-color: black;
+    }
+        .articles{
+            background-color: aquamarine;
+        }
+            .article{
+                background-color:blue;
+            }
+            .navegacion{
+                background-color:blue;
+            }
+        .publicidades{
+            background-color: aquamarine;
+        }
+            .publicidad{
+                background-color:blue;
+            }
+    footer{
+        background-color: black;
+    }
+        .footer{
+            background-color: aquamarine;
+        }
+@media(min-width: 576px){
+    body{
+        background-color: aqua;
+    }
+}
+@media(min-width: 768px){
+    body{
+        background-color: blue;
+    }
+}
+@media(min-width: 992px){
+    body{
+        background-color: blueviolet;
+    }
+}
+@media(min-width: 1200px){
+    body{
+        background-color: brown;
+    }
+}
